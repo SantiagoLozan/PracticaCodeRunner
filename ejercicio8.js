@@ -13,10 +13,11 @@ a.map((i) =>{
 });
 console.log("La suma es: " + acumulador);
 
+const b = [2,5,6,1];
 let mayor = 0
-a.map((item)) => {
+b.map((item) => {
     if(item>mayor){
         mayor = item;
     };
-}
+});
 
